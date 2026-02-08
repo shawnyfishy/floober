@@ -4,10 +4,10 @@ import { ChevronDown } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative h-[100svh] w-full flex flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-rose-50 via-rose-50 to-white/50 touch-none">
+    <section className="relative h-[100svh] w-full flex flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-rose-50 via-rose-50 to-white/50">
       {/* Decorative gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-rose-50/20 to-rose-100/40 z-10 pointer-events-none" />
-      
+
       <div className="z-20 text-center px-4 relative w-full max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
